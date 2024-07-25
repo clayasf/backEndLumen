@@ -13,16 +13,8 @@
 |
 */
 
-// $router->get('/', function () use ($router) {
-//     return $router->app->version();
-// });
-
-// $router->get('/cep', function(){
-//     return response()->json(['status' =>true]);
-// });
-
 $router->get('/cep/{id}', 'CepController@show');
-$router->get('/cepp', 'CepController@index');
+$router->get('/cep', 'CepController@index');
 
 $router->get('/historico', 'HistoricoController@index');
 $router->post('/historico/cadastrar', 'HistoricoController@store');

@@ -2,7 +2,7 @@ GET http://localhost:8000 HTTP/1.1
 ####
 GET http://localhost:8000/cep/02472100 HTTP/1.1
 ####
-GET http://localhost:8000/cepp HTTP/1.1
+GET http://localhost:8000/cep HTTP/1.1
 ####
 GET http://localhost:8000/historico HTTP/1.1
 ####
