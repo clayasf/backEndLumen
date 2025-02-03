@@ -1,12 +1,12 @@
-GET http://localhost:8000 HTTP/1.1
+GET http://backendlumen.com HTTP/1.1
 ####
-GET http://localhost:8000/cep/02472100 HTTP/1.1
+GET http://backendlumen.com/cep/02472100 HTTP/1.1
 ####
-GET http://localhost:8000/cep HTTP/1.1
+GET http://backendlumen.com/cep HTTP/1.1
 ####
-GET http://localhost:8000/historico HTTP/1.1
+GET http://backendlumen.com/historico HTTP/1.1
 ####
-POST  http://localhost:8000/historico/cadastrar HTTP/1.1
+POST  http://backendlumen.com/historico/cadastrar HTTP/1.1
 Content-Type: application/json
 
 {
